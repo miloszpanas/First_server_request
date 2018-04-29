@@ -16,3 +16,5 @@ function getJoke() {
     });
     xhr.send();
 }
+
+window.onload = getJoke();
